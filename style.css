@@ -1,18 +1,19 @@
 .carousel {
     max-width: 600px;
     position: relative;
+    margin: 0 auto;
 
 }
 img {
     width: 100%;
     max-width: 600px;
-    height: auto;
+    
 }
-.carousel-item {
+.carousel-item, carousel-item-hidden {
 display: none;
 }
 
-.item-visible {
+.carousel-item-visible {
     display: block;
     animation: fadeVisibility 0.5s;
 }
@@ -35,7 +36,7 @@ button {
     margin: 20px;
 }
 h3 {
-    color: seagreen;
+    color: firebrick;
     top: 50%;
     transform: translateY(-350%);
 }
