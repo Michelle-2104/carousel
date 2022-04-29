@@ -7,6 +7,7 @@
 img {
     width: 100%;
     max-width: 600px;
+   
     
 }
 .carousel-item, carousel-item-hidden {
@@ -34,9 +35,10 @@ button {
     font-size: 16px;
     font-weight: bold;
     margin: 20px;
+    
 }
 h3 {
-    color: firebrick;
+    color: black;
     top: 50%;
     transform: translateY(-350%);
 }
@@ -48,4 +50,10 @@ h3 {
     100% {
         opacity: 1;
     }
+}
+.carousel-indicator { 
+position: absolute;
+margin-top: 0;
+transform: translateY(-300%);
+right:0;
 }
